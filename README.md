@@ -32,6 +32,7 @@ Election data from the MIT Elections Data and Science Lab was cleaned by MGGG st
 * `NH_ASIAN`: Asian, non-hispanic, population
 * `NH_NHPI`: Native Hawaiian and Pacific Islander, non-hispanic, population
 * `NH_OTHER`: Other race, non-hispanic, population
+* `NH_2MORE`:Two or more races, non-hispanic, population
 * `HISP`: Hispanic population
 * `H_WHITE`: White, hispanic, population
 * `H_BLACK`: Black, hispanic, population
@@ -39,6 +40,7 @@ Election data from the MIT Elections Data and Science Lab was cleaned by MGGG st
 * `H_ASIAN`: Asian, hispanic, population
 * `H_NHPI`: Native Hawaiian and Pacific Islander, hispanic, population
 * `H_OTHER`: Other race, hispanic, population
+* `H_2MORE`:Two or more races, hispanic, population
 * `VAP`: Total voting age population
 * `HVAP`: Hispanic voting age population
 * `WVAP`: White, non-hispanic, voting age population
@@ -52,6 +54,8 @@ Election data from the MIT Elections Data and Science Lab was cleaned by MGGG st
 * `HDIST`: 2011 enacted state house district ID
 * `SENDIST`: 2011 enacted state senate district ID
 
+## Projection
+This shapefile uses a Lambert Conformal Conic/State Plane projection centered on central Michigan (ESPG:6493).
 
 ## Rating
-We give this shapefile an A rating. All data was obtained from the state government and was processed by MGGG staff.
+We give this shapefile an A rating. All data were obtained from the state government and were processed by MGGG staff.
