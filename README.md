@@ -59,3 +59,16 @@ This shapefile uses a Lambert Conformal Conic/State Plane projection centered on
 
 ## Rating
 We give this shapefile an A rating. All data were obtained from the state government and were processed by MGGG staff.
+
+# Michigan Dual Graph
+A properly connected dual graph used for running GerryChain the file `michigan_dualgraph.json`. It follows the state guidlines that island precincts be considered contiguous to their county on the mainland. This dual graph differs from a dual graph that GerryChain builds from this repository's shapefile in the following ways (see below for exact edges deleted):
+- an extraneous edge between Grosse Ile and Soo Township has been removed (Detroit area should not be connected to Upper Peninsula)
+- an edge connecting Grosse Ile to Wayne County has been with edges that correctly run along bridges off the island
+
+If planning to run GerryChain on this shapefile, we suggest loading this graph via `Graph.load_json()` instead of creating a graph from `Graph.from_file()` and saving that graph locally for further use.
+
+### Changed edges by `VTD`
+- (P0337462000001, P1633542000002) removed
+- (P1633542000005, P1631122000008) removed
+- (P1633542000002, P1638042000001) added
+- (P1633542000002, P1636888000001) added
