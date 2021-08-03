@@ -25,6 +25,14 @@ Election data from the MIT Elections Data and Science Lab was cleaned by MGGG st
 * `PRES16R`: Number of votes for 2016 Republican presidential candidate
 * `PRES16L`: Number of votes for 2016 Libertarian presidential candidate
 * `PRES16G`: Number of votes for 2016 Green Party presidential candidate
+* `GOV18D`: Number of votes for 2018 Democratic Governor candidate
+* `GOV18R`: Number of votes for 2018 Republican Governor candidate
+* `SEN18D`: Number of votes for 2018 Democratic Senate candidate
+* `SEN18R`: Number of votes for 2018 Republican Senate candidate
+* `SOS18D`: Number of votes for 2018 Democratic Secretary of State candidate
+* `SOS18R`: Number of votes for 2018 Republican Secretary of State candidate
+* `AG18D`: Number of votes for 2018 Democratic Attorney General candidate
+* `AG18R`: Number of votes for 2018 Republican Attorney General candidate
 * `TOTPOP`: Total population 
 * `NH_WHITE`: White, non-hispanic, population
 * `NH_BLACK`: Black, non-hispanic, population
