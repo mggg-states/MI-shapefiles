@@ -63,7 +63,7 @@ Election data from the MIT Elections Data and Science Lab was cleaned by MGGG st
 * `SENDIST`: 2011 enacted state senate district ID
 
 ## Projection
-This shapefile uses a Lambert Conformal Conic/State Plane projection centered on central Michigan (ESPG:6493).
+This shapefile uses a Lambert Conformal Conic/State Plane projection centered on central Michigan (EPSG:6493).
 
 ## Rating
 We give this shapefile an A rating. All data were obtained from the state government and were processed by MGGG staff.
